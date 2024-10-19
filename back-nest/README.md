@@ -5,8 +5,7 @@
 ## 1. Setting Environment Variables (.env)
 
 ```bash
-# $ DATABASE_URL="postgresql://user:password@localhost:5432/database?schema=public"
-# $ PORT=3000
+$ PORT=3000
 ```
 
 ## 2. Run application (dev)
@@ -29,10 +28,10 @@ $ npx prisma init --datasource-provider sqlite
 npx prisma migrate dev --name init
 ```
 
-<!-- ## 3. Install xxxx
+## 3. Install Swagger (Documentation)
 
 ```bash
-$  -->
+$ npm install --save @nestjs/swagger
 ```
 
 Goodbye! Happy coding
