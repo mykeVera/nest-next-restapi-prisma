@@ -5,8 +5,8 @@
 ## 1. Setting Environment Variables (.env)
 
 ```bash
-$ DATABASE_URL="postgresql://user:password@localhost:5432/database?schema=public"
-$ PORT=3000
+# $ DATABASE_URL="postgresql://user:password@localhost:5432/database?schema=public"
+# $ PORT=3000
 ```
 
 ## 2. Run application (dev)
@@ -22,16 +22,17 @@ $ npm run start:dev
 $ npx @nestjs/cli@latest
 ```
 
-## 2. Install xxxx
-
+## 2. Install Prisma (Dev)
 ```bash
-$ 
+$ npm install prisma -D
+$ npx prisma init --datasource-provider sqlite
+npx prisma migrate dev --name init
 ```
 
-## 3. Install xxxx
+<!-- ## 3. Install xxxx
 
 ```bash
-$ 
+$  -->
 ```
 
 Goodbye! Happy coding
