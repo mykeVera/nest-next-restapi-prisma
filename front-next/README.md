@@ -1,8 +1,14 @@
-*** NEXT JS + ... ***
+*** NEXT JS + REACT FORM HOOK + SHADCN/UI ***
 
 # CONFIGURE APPLICATION
 
-## 1. Run application (dev)
+## 1. Setting Environment Variables (.env)
+
+```bash
+$ NEXT_PUBLIC_BACKEND_URL='http://localhost:4000'
+```
+
+## 2. Run application (dev)
 ```bash
 $ npm run dev
 ```
@@ -13,6 +19,21 @@ $ npm run dev
 
 ```bash
 $ npx create-next-app@latest front-next
+```
+
+## 2. Install Shadcn/ui
+
+```bash
+$ npx shadcn@latest init 
+$ npx shadcn@latest add button
+$ npx shadcn@latest add input
+$ npx shadcn@latest add card label
+```
+
+## 3. Install React Hook Form (Form Validation)
+
+```bash
+$ npm install react-hook-form
 ```
 
 Goodbye! Happy coding
